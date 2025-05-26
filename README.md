@@ -1,43 +1,43 @@
-# Gerador de Senhas Seguras
+# 🔐 Gerador de Senhas Seguras
 
-Um simples gerador de senhas seguras com interface gráfica em Python.
+Um simples gerador de senhas seguras com interface gráfica em Python. O aplicativo permite gerar senhas com diferentes comprimentos, avaliar a força da senha e copiá-la para a área de transferência com um clique.
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
-- Gera senhas seguras com diferentes comprimentos.
-- Avalia a força da senha com uma barra de progresso.
+- Gera senhas seguras com letras, números e símbolos.
+- Avalia a força da senha com uma barra de progresso visual.
 - Permite copiar a senha gerada para a área de transferência.
+- Interface gráfica intuitiva e leve.
 
-## Pré-requisitos
+## 🧰 Pré-requisitos
 
-- Python 3.x
-- Biblioteca `keyring` (instalável via `pip install keyring`)
+- Python 3.x instalado
+- Biblioteca `keyring` (para interação com área de transferência segura)
 
-## Como usar
+Para instalar a dependência, execute:
+
+pip install keyring
+
+## 🚀 Como Usar
 
 1. Clone o repositório:
 
-    ```bash
-    git clone https://github.com/seu-usuario/gerador-senhas-seguras.git
-    ```
+git clone https://github.com/WallanDavid/python-gerador-senhas.git
 
-2. Instale as dependências:
+2. Navegue até a pasta do projeto:
 
-    ```bash
-    pip install keyring
-    ```
+cd python-gerador-senhas
 
 3. Execute o aplicativo:
 
-    ```bash
-    python gerador_senhas.py
-    ```
+python geradorsenhas.py
 
-## Contribuições
+## 🤝 Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+Contribuições são bem-vindas!  
+Sinta-se à vontade para abrir issues com sugestões, melhorias ou reportar problemas.  
+Pull requests com novas funcionalidades também são muito bem-vindos.
 
-## Licença
+## 📜 Licença
 
-Este projeto é licenciado sob a [MIT License](LICENSE).
-
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
